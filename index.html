@@ -12,12 +12,13 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="card mx-auto mt-4 px-2 pb-3" style="width: 18rem">
       <div class="card-body text-center">
-        Ch'tiri c'est comme Siri (ou Google) mais il répond en ch'ti !! cliquez
-        sur Hello et demandez comment ça va par exemple.
+        Ch'tiri c'est comme Siri (ou Alexa) mais il répond en ch'ti !! cliquez
+        sur Hello dites bonjour ou demandez comment ça va par exemple.
       </div>
       <button class="btn btn-primary" id="talk">
         Hello
@@ -31,8 +32,15 @@
     </div>
     <div class="mx-auto mt-4 px-2 pb-3" id="card" style="width: 18rem">
       <div class="card-body text-center" id="addText"></div>
+      <div class="card-body text-center bg-primary" id="chtiriText"></div>
     </div>
 
+    <div class="card" id="botom">
+      <div class="card-body">
+        Il se peut que vous rencontriez des problèmes de comptabilité sur
+        certains navigateurs.
+      </div>
+    </div>
     <!-- <button id="test">check</button> -->
   </body>
   <!-- JavaScript Bundle with Popper -->
